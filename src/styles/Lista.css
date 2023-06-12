@@ -1,0 +1,105 @@
+/* Estilo da Lista de tarefas */
+.Lista{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.774);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px  rgb(219, 182, 182);
+}
+h1 {
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333974;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+button:hover{
+    opacity: 1;
+}
+/* Estilo das tarefas */
+.Tarefas {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555;
+}
+
+.item {
+    background-color: white;
+    box-shadow: 0 0 10px rgb(133, 65, 65);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.categoria{
+    font-size: 15px;
+    font-family: Arial;
+    font-style: italic;
+    width: 75px;
+    text-align: center;
+    padding: 5px 7px;
+    border-radius: 3px;
+    color: white;
+}
+
+/* estilo do botão completar */
+.completa {
+    background-color: rgb(104, 150, 36);
+}
+/* estilo do remover(x) */
+.remover {
+    background-color: crimson;
+}
+/* estilo do criar tarefa */
+.item-formulario{
+    padding-bottom: 1.5rem;
+}
+
+input, select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    width: 100%;
+}
+.Filtro, .buscar {
+    border-bottom: 1px solid #555;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+/* Estilo da parte de filtragem de tarefa completa e incompleta e da ordem alfabetica */
+.Opcoes-Filtro {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.Opcoes-Filtro div{
+    flex: 1 1 0;
+}

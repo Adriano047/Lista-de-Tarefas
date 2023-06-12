@@ -1,0 +1,8 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../img/NoiteEstrelado.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    color: #333;
+}
